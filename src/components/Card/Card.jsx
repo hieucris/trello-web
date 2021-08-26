@@ -1,9 +1,9 @@
 import React from "react";
-import "./Task.scss";
+import "./Card.scss";
 
-function Task(props) {
+function Card(props) {
   return (
-    <li className="task-item">
+    <li className="card-item">
       <img
         src="https://image-us.24h.com.vn/upload/1-2019/images/2019-01-11/ronaldo-660-1547196192-632-width660height451.jpg"
         alt="hieucris"
@@ -13,4 +13,4 @@ function Task(props) {
   );
 }
 
-export default Task;
+export default Card;
